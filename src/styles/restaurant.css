@@ -1,0 +1,63 @@
+.restaurant {
+  padding: 20px;
+}
+
+.restaurant h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.restaurant-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+  column-gap: 30px;
+  padding: 20px;
+}
+
+.container-card {
+  box-shadow: -2px 2px 19px 1px rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: white;
+}
+
+.card-txt h3,
+.card-txt .resto-info,
+.card-txt p {
+  margin-bottom: 10px;
+}
+
+.container-img img {
+  width: 100%;
+}
+
+.card-txt {
+  padding: 10px 20px;
+}
+
+.resto-info {
+  display: flex;
+  align-items: center;
+}
+
+.rating-container,
+.location-container {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.rating-container .star-icon,
+.location-container .location-icon {
+  width: 20px;
+}
+
+.rating-container .star-icon {
+  color: rgb(185, 185, 32);
+}
+
+.location-container .location-icon {
+  color: rgb(206, 51, 51);
+}

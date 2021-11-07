@@ -31,4 +31,18 @@
     font-size: 90px;
   }
   /* ---- */
+
+  /* Restaurant List */
+  .restaurant-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* ----- */
+}
+
+@media screen and (min-width: 1280px) {
+  /* Restaurant List */
+  .restaurant-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* ----- */
 }

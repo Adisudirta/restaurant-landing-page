@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(243, 243, 243);
+}
+
+h1 {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+}
+
+.go-up {
+  appearance: button;
+  position: fixed;
+  top: 90vh;
+  left: 95vw;
+  background-color: rgb(104, 104, 104);
+  border-radius: 8px;
+  border: none;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+}
+
+.go-up svg {
+  width: 100%;
+  color: white;
+}
+
+header {
+  color: rgb(207, 204, 204);
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 15px 20px;
+  position: fixed;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+header.background {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+header nav#mobile {
+  position: fixed;
+  background-color: rgb(204, 198, 198);
+  width: 89vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 50px 0;
+  text-align: center;
+  border-radius: 20px;
+  top: 13vh;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+header nav#mobile a {
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+  opacity: 1;
+  font-weight: bold;
+  color: black;
+}
+
+header nav#desktop a {
+  margin: 0 20px;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header nav#mobile.hide {
+  display: none;
+}
+
+header nav#mobile.show {
+  opacity: 0.93;
+}
+
+header button {
+  width: 44px;
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}

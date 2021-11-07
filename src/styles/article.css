@@ -1,0 +1,28 @@
+.foodtastic-intro {
+  width: 85vw;
+  margin: 100px auto 20px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-image: url("../public/images/heros/hero-image_1.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.foodtastic-intro div {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.664);
+}
+
+.foodtastic-intro div h2 {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.foodtastic-intro div p {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(224, 214, 214);
+}
