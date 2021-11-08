@@ -37,6 +37,10 @@
     grid-template-columns: 1fr 1fr;
   }
   /* ----- */
+
+  .go-up {
+    left: 92vw;
+  }
 }
 
 @media screen and (min-width: 1280px) {

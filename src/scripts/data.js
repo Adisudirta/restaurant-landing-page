@@ -3,7 +3,7 @@ const containerRestaurant = document.querySelector(".restaurant-list");
 
 restaurants.forEach((data) => {
   containerRestaurant.innerHTML += ` 
-  <div class="container-card" restoId="${data.id}">
+  <div class="container-card" tabindex="0" restoId="${data.id}">
     <div class="container-img">
       <img src="${data.pictureId}" alt="${data.name}" />
     </div>
