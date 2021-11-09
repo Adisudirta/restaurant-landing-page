@@ -30,7 +30,9 @@
   font-family: "Lobster", cursive;
 }
 
-.content button {
+.content a {
+  text-decoration: none;
+  appearance: button;
   margin: 15px 0;
   padding: 13px 20px;
   font-size: 20px;
