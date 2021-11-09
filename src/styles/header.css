@@ -76,6 +76,7 @@ header nav#mobile a {
 
 header nav#desktop a {
   margin: 0 20px;
+  padding: 10px 0;
   color: inherit;
   font-weight: bold;
   text-decoration: none;
