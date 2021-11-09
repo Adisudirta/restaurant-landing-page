@@ -14,6 +14,20 @@ h1 {
   font-family: "Lobster", cursive;
 }
 
+.go-main-content {
+  position: absolute;
+  top: -13vh;
+  left: 43vw;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(148, 148, 148);
+  padding: 20px;
+}
+
+.go-main-content:focus {
+  top: 13vh;
+}
+
 .go-up {
   appearance: button;
   position: fixed;
